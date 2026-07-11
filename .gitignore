@@ -1,0 +1,12 @@
+node_modules
+dist
+*.cast
+*.mp4
+*.gif
+*.png
+.DS_Store
+video-render/node_modules
+video-render/out
+video-render/src/duration.json
+video-render/src/cast-data.json
+

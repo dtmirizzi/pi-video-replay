@@ -1,0 +1,24 @@
+{
+  "name": "pi-video-replay",
+  "version": "0.1.0",
+  "description": "Replay Pi coding agent sessions as asciinema cast files (and eventually video)",
+  "type": "module",
+  "bin": {
+    "pi-video-replay": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "^0.80.3",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^4.1.10"
+  }
+}
