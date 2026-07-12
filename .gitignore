@@ -11,3 +11,4 @@ video-render/src/duration.json
 video-render/src/cast-data.json
 
 package-lock.json
+video-render/package-lock.json
