@@ -14,9 +14,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
 
-      - run: npm ci
+      - run: npm install
       - run: npx tsc --noEmit
       - run: npx vitest run
 
@@ -27,9 +26,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
 
-      - run: npm ci
+      - run: npm install
       - run: npx tsc
       - run: node dist/index.js --list
       - run: node dist/index.js --sessions 2>/dev/null || true
