@@ -32,3 +32,4 @@ jobs:
       - run: npm ci
       - run: npx tsc
       - run: node dist/index.js --list
+      - run: node dist/index.js --sessions 2>/dev/null || true
