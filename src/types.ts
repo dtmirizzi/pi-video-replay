@@ -43,7 +43,7 @@ export interface TimingOptions {
   /** Speed multiplier: 1.0 = normal, 2.0 = double speed */
   speed: number;
   /** Typing mode: "user-only" | "all" | "none" */
-  typing: "user-only" | "all" | "none";
+  typing: "user-only" | "all" | "none" | "scene";
   /** Character delay in ms (scaled by speed) */
   charDelayMs: number;
   /** Paragraph delay in ms (scaled by speed) */

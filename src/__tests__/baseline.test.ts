@@ -106,7 +106,7 @@ describe("applySceneTiming", () => {
     ];
     const events = applySceneTiming(chunks, {
       speed: 1,
-      typing: "scene",
+      typing: "user-only",
       charDelayMs: 60,
       paragraphDelayMs: 200,
       chunkDelayMs: 80,
@@ -124,7 +124,7 @@ describe("applySceneTiming", () => {
       { lines: ["text"], type: "user-message" as const },
     ];
     const events = applySceneTiming(chunks, {
-      speed: 1, typing: "scene",
+      speed: 1, typing: "user-only",
       charDelayMs: 60, paragraphDelayMs: 200,
       chunkDelayMs: 80, chunkLines: 5, messagePauseMs: 500,
     });
